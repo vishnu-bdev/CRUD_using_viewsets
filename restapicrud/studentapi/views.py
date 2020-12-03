@@ -8,8 +8,8 @@ from . import models
 
 class StudentViewset(viewsets.ModelViewSet):
 
-    queryset            =   models.Student.objects.all()
-    serializer_class    =   serializers.StudentSerializer
+    queryset = models.Student.objects.all()
+    serializer_class = serializers.StudentSerializer
 
 
 
